@@ -1,10 +1,10 @@
 # amqp-publish
 
-A simple tool to publish messages to RabbitMQ from the command line.
+A simple tool to publish messages to RabbitMQ from the command line, without the messages expiring on rabbit restart.
 
 ## Setup
 
-Download the [latest release](https://github.com/selency/amqp-publish/releases) binary and save it to `/usr/local/bin` or any executable path.
+Download the [latest release](https://github.com/Plexmation/amqp-publish/releases) binary and save it to `/usr/local/bin` or any executable path.
 
 ## Usage
 
@@ -34,3 +34,4 @@ amqp-publish --uri="amqp://admin:password@localhost:5672/" --exchange="foo" --ro
 ## Credit
 
 Streadway's [AMQP Go library](https://github.com/streadway/amqp).
+Original [Repo](https://github.com/selency/amqp-publish)
