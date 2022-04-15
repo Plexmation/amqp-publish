@@ -108,7 +108,7 @@ func main() {
 			ContentType:     "text/plain",
 			ContentEncoding: "",
 			Body:            []byte(m),
-			DeliveryMode:    amqp.Transient,
+			DeliveryMode:    amqp.Persistent,
 			Priority:        0,
 		})
 	}
